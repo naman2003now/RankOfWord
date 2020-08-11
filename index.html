@@ -7,9 +7,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <input type="text" placeholder="Enter The Word" id="word" value="">
-    <button onclick="afterClick()" id="submit">Find the Rank</button>
-    <p id="output">1</p>
+    <div class="login-box">
+        <h2 id="output">Rank calculator</h2>
+        <form>
+          <div class="user-box">
+            <input type="text" name="" required="" id="word" value="" onsubmit="afterClick()" autocomplete="off">
+            <label>Enter the word</label>
+          </div>
+          <a href="#" onclick="afterClick()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Rank
+          </a>
+        </form>
+      </div>
     <script src="logic.js"></script>
 </body>
 </html>
