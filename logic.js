@@ -75,6 +75,6 @@ function afterClick(){
     inputWord = getWord()
     numberArray = wordToNumbers(inputWord)
     rank = FindTheRank(numberArray)
-    document.getElementById("output").innerHTML = rank
+    document.getElementById("output").innerHTML = "Rank: " + rank
 }
 
